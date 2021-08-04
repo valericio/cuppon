@@ -1,0 +1,185 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 0px;
+}
+.logo-nav {
+    padding: 0 5pt;
+}
+
+
+.columna1 {
+    height: 380pt;
+    margin: 15pt 0;
+
+}
+
+.espacio {
+    height: 15pt;
+}
+
+.espacio2 {
+    height: 15pt;
+}
+
+p {
+    color: #707070;
+}
+.card-body {
+    padding: 15pt 18pt 0pt 18pt!important;
+    
+}
+
+.card-title {
+    font-size: 20pt;
+    padding-right: 0pt;
+    margin-bottom: 0pt;
+}
+
+.precio-2 {
+    font-size: 20pt;
+    margin-left: 8pt!important;
+    text-align: right;
+
+}
+
+.precio-1 {
+    font-size: 16pt;
+    padding-top: 2pt;
+    text-align: right;
+}
+
+.texto-pin, .icono-pin {
+    display: inline-block;
+}
+
+.icono-pin {
+    color: #707070;
+    height: 9.2pt;
+    width: auto;
+}
+
+.descripcion {
+    margin: 2pt 0;
+}
+
+.precios {
+    padding-top: 10pt!important;
+    padding-bottom: 10pt!important;
+
+}
+
+.precios-3 {
+    display: inline-block;
+}
+
+.precio1, .precio-2 {
+    display: inline;
+}
+
+
+.invisible {
+  visibility: hidden;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .card-text, .pin {
+        font-size: 95%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .card-title{
+        font-size: 140%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .card-body{
+        padding: 10pt 10pt 0 10pt!important;
+    }
+}
+
+
+@media (min-width: 430px) and (max-width: 1023px) {
+    .espacio{
+        height: 0!important;
+    }
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+
+#titulo-form {
+    padding-top: 9pt;
+    padding-bottom: 15pt;
+    font-size: 21pt;
+}
+
+.form-cuppon {
+    height: 241pt;
+    width: auto;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 25pt;
+}
+
+.form-group {
+    height: 40pt;
+    width: 278pt;
+    margin: 0 auto;
+}
+
+.enviar {
+    height: 40pt;
+    width: 112.7pt;
+    font-size: 16px;
+    color: #212529!important;
+}
+
+
+@media (max-width: 768px) {
+    .titulo {
+        padding: 0pt!important;
+    }
+}
+
+.espacio {
+    height: 30pt;
+}
+
+header {
+    padding: 1em;
+    clear: left;
+    text-align: center;
+    font-size: 20px;
+    color:#212529!important;
+    margin-top: 5pt;
+    margin-bottom: 5pt;
+    
+}
+
+@media (max-width:375px) {
+    .form-group {
+        width: 200pt;
+    }
+}
+
+.logo-negro {
+    text-align: center;
+}
+
+footer {
+    margin-bottom: 22pt;
+}
+
+footer p {
+    font-size: 16pt;
+    padding: 10pt 30pt 0 30pt;
+    margin-left: 21pt;
+}
+
+footer img {
+    margin:0;
+}
